@@ -1,13 +1,13 @@
-##Yang dilakukan agar projek bisa berhasil:
+# Yang dilakukan agar projek bisa berhasil:
 
-#untuk instalasi
+## untuk instalasi
 npm install tailwindcss @tailwindcss/cli
 
-#css yang digunakan adalah tailwindcss
+## css yang digunakan adalah tailwindcss
 @import "tailwindcss";
 
-#untuk build tailwind cli
+## untuk build tailwind cli
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 
-#untuk run di localhost agar bisa melihat projek saya
+## untuk run di localhost agar bisa melihat projek saya
 npm run dev
